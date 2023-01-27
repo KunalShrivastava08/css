@@ -1,0 +1,31 @@
+.defence{
+    background-color: aquamarine;
+}
+.army{
+    color: green;
+    margin-left: 414px;
+}
+.navy{
+    color: navy;
+    margin-left: 463px;
+    padding: 10px;
+}
+.airforce{
+    margin-left: 522px;
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+.armyH{
+    margin-left: 202px;
+}
+.navyH{
+    margin-left: 127px;
+}
+.airH{
+    margin-left: 60px;
+}
+img{
+    border-radius: 20%;
+}
