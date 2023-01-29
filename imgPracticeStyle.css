@@ -1,0 +1,17 @@
+.image{
+    padding: 60px;
+}
+.image_dis{
+  margin-left: 140px;
+  border-radius: 30%;
+}
+.main_body{
+    border: solid;
+    margin-left: 371px;
+    margin-right: 544px;
+    border-radius: 30%;
+
+}
+img{
+    border-radius: 30%;
+}
