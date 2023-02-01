@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaniner{
+    height: 100vh;
+    width: 100vw;
+}
+.box1{
+    height: 20%;
+    width: 30%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 20%;
+    width: 30%;
+    background-color: yellow;
+    margin: 40px;
+    transition: width 3s;
+}
+.box:hover{
+    width: 40%;
+}
