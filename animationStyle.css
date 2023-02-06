@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    height: 30%;
+    width: 30%;
+    background-color: yellowgreen;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+ 0%{
+    transform: rotateZ(0deg);
+ }
+ 100%{
+    transform: rotateZ(360deg);
+ }
+ 50%{
+    border-radius: 50%;
+ }
+
+}

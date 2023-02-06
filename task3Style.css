@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    height: 10%;
+    width: 78%;
+    background: linear-gradient(to right,#88d0ff, #6dd5fa, #ffffff);
+    margin: 1%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBody{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* padding: 1%; */
+    /* margin-bottom: 1%; */
+    /* margin: 1%;*/
+}
+.Aside{
+    height: 100%;
+    width: 30%;
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #3d7de3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.article{
+    height: 100%;
+    width: 65%;
+    background: linear-gradient(to right, #fb1c1c, #9da5d1);
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 5%;*/
+}
+.articleText{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.imageDiv{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image1{
+    height: 90%;
+    width: 30%;
+    background: linear-gradient(to right, #abbaab, #6c6262);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image2{
+    height: 90%;
+    width: 30%;
+    background: linear-gradient(to right,#abbaab, #6c6262);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image3{
+    height: 90%;
+    width: 30%;
+    background: linear-gradient(to right, #abbaab, #6c6262);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 10%;
+    width: 78%;
+    background: linear-gradient(to right,#88d0ff, #6dd5fa, #ffffff);
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: white;
+}
