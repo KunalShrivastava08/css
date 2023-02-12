@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: url("img.jpeg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.image{
+    height: 100%;
+    width: 40%;
+}
+.dec{
+    height: 95%;
+    width: 60%;
+}
+h3{
+    margin: 5% 0px;
+}
+
+.container-heading{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+.container-body{
+    height: 81%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+.container-body-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: inherit; */
+    padding-right: 50%;
+    height: 8%;
+    padding-top: 1%;
+}
+h1{
+    background: -webkit-linear-gradient(rgb(174, 62, 6), rgb(212, 189, 103));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+hr{
+    width: 15%;
+}
+.button1, .button2 {
+    padding: 4px 10px;
+    text-align: center;
+    /* justify-content: center; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .button4 {
+    color: orange;
+    border: solid orange;
+  }
+  .button3 {
+    color: white;
+    background-color:orange;
+    border: solid orange;
+  }
+  .button2 {
+    color: white;
+    background-color:orange;
+    border: solid orange;
+  }
+  .button1 {
+    color: orange;
+    border: solid orange;
+  }
+
+  .button3, .button4 {
+    padding: 4px 16px;
+    text-align: center;
+    /* justify-content: center; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  h3{
+    display: flex;
+    flex-direction: row;
+    color: #8f7878;
+    width: 50%;
+  }
+  h3:before, h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  h3:before {
+    margin-right: 10px
+  }
+  h3:after {
+    margin-left: 10px
+  }
+  
